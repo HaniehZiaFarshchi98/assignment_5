@@ -1,0 +1,6 @@
+matn1 = input ("enter matn:")
+matn2 = input("enter jodakonande:")
+matn3 = input ("enter chasbanande:")
+text = matn1.split(matn2)
+text = matn3.join(text)
+print(text)
